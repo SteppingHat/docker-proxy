@@ -13,6 +13,7 @@ This container is a fast lightweight container that can be used in order to reve
         -p 443:443
         -v </path/to/config>:/config
         -v </path/to/certs>:/certs
+        -v </path/to/logs>:/logs
         -e TZ=<timezone>
         steppinghat/proxy
 
@@ -22,6 +23,7 @@ This container is a fast lightweight container that can be used in order to reve
 - `-p 443` - the default web port for SSL
 - `-v /config` - the directory for nginx config files
 - `-v /certs` - the directory used for storing certificates to reference in your configs
+- `-v /logs` - the directory where logs can be storred (is also an internal map to /var/log/nginx)
 - `-e TZ` - for timezone information (such as Australia/Sydney)
 
 _Written by Javan Eskander @SteppingHat_
