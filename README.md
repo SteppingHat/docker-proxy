@@ -1,6 +1,18 @@
 nginx proxy
 ===========
 
+## ⚠️ This container has been abandoned
+
+There are plenty of other repos that offer more functionality, more frequent updates, and are much more awesome.
+
+Some notable options are:
+* [jwilder/nginx-proxy](https://hub.docker.com/r/jwilder/nginx-proxy) _(I've used this personally)_
+* [nginxproxy/nginx-proxy](https://hub.docker.com/r/nginxproxy/nginx-proxy)
+
+Thanks to those who used my container!
+
+---
+
 ### About
 
 This container is a fast lightweight container that can be used in order to reverse proxy domains to different containers on the docker host.
